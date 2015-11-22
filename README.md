@@ -1,12 +1,14 @@
-GBA4iOS (forked)
+GBA4iOS (with iCade Support | forked)
 ===========
 
 ![GBA4iOS](http://gba4iosapp.com/images/download/gba4ios2_devices.png)
 
 This is a fork of the famous Game Boy Advance emulator for iOS.
+
 Since the original developer @rileytestut does not maintain the project at the moment, I forked the project and manually fixed some bugs and features from the pull-requests (!).
 
 I'm not an Objective-C programmer, I have just copy'n'pasted things together.
+
 Credit goes out to the other folks. (pull-requests sources at the bottom)
 
 ### New Features ###
@@ -33,7 +35,7 @@ Credit goes out to the other folks. (pull-requests sources at the bottom)
 - Fast Forward  
 
 Getting Started
-=============
+================
 
 GBA4iOS can be opened in Xcode and deployed to an iOS device just like an other app, but there are a few steps that need to be completed first:
 
@@ -49,14 +51,15 @@ Requirements
 - GBA4iOS 2.0 requires Xcode 5 or later, targeting iOS 7.0 and above.  
 - For deployment to iOS 6 devices, use the project in the 1.x branch.
 
-Contact
-========
-
-GBA4iOS was created by developer [Riley Testut](http://twitter.com/rileytestut) and graphic designer [Paul Thorsen](http://twitter.com/pau1thor).
-
 Used commits
 =============
 
 - iCade Bluetooth Support - [Mike Bignell](https://bitbucket.org/mikezs/gba4ios/commits/a1bfba5c1e939b0681a927a6c704bc88c5751edc?at=master)
 - General Bugfixing – [Saagar Jha](https://bitbucket.org/saagarjha/gba4ios/commits/e30bebc8f3385498f167290ded608993db0d4714?at=master)
 - 128k save support pulled from gambatte - [r.kuraev](https://bitbucket.org/naorunaoru/gba4ios/commits/c0ac55903afdb8d681e8331fa6ca12e5caacdb14?at=master)
+
+
+Contact
+========
+
+GBA4iOS was created by developer [Riley Testut](http://twitter.com/rileytestut) and graphic designer [Paul Thorsen](http://twitter.com/pau1thor).
