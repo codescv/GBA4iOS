@@ -12,6 +12,12 @@
 		1AD971E717D2B6EC007097BC /* GBAControllerSkinDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD971E617D2B6EC007097BC /* GBAControllerSkinDetailViewController.m */; };
 		1AD971F317D2C6ED007097BC /* GBAControllerSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD971F117D2C6ED007097BC /* GBAControllerSkin.m */; };
 		36BB379009474825B993FD0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AFB44A5AB34C2982DE856F /* libPods.a */; };
+		6A36EEBC1A1A46CA0035DF1D /* GBAKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36EEBB1A1A46CA0035DF1D /* GBAKeyboardController.m */; };
+		6A36EEBD1A1A46D00035DF1D /* GBAKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36EEBB1A1A46CA0035DF1D /* GBAKeyboardController.m */; };
+		6A36EEC41A1A4BA00035DF1D /* iCadeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36EEC01A1A4BA00035DF1D /* iCadeReaderView.m */; };
+		6A36EEC51A1A4BA00035DF1D /* iCadeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36EEC01A1A4BA00035DF1D /* iCadeReaderView.m */; };
+		6A36EEC61A1A4BA00035DF1D /* LMBTControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36EEC31A1A4BA00035DF1D /* LMBTControllerView.m */; };
+		6A36EEC71A1A4BA00035DF1D /* LMBTControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36EEC31A1A4BA00035DF1D /* LMBTControllerView.m */; };
 		BF02AFDB182F3E590031B8B6 /* GBASyncingOverviewViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF02AFDA182F3E590031B8B6 /* GBASyncingOverviewViewController.mm */; };
 		BF02AFDF182F6E200031B8B6 /* GBASyncingDetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF02AFDE182F6E200031B8B6 /* GBASyncingDetailViewController.mm */; };
 		BF02D2C4197344950034A515 /* GBASoftwareUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF02D2C3197344950034A515 /* GBASoftwareUpdate.m */; };
@@ -488,6 +494,13 @@
 		1AD971F117D2C6ED007097BC /* GBAControllerSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAControllerSkin.m; sourceTree = "<group>"; };
 		4A0F09D4E8E87AAE2BF774E2 /* Pods.ad hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.ad hoc.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.ad hoc.xcconfig"; sourceTree = "<group>"; };
 		4BC912A8C9F0C9806CCC83B8 /* Pods.jailbreak.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.jailbreak.xcconfig; path = "Pods/Target Support Files/Pods/Pods.jailbreak.xcconfig"; sourceTree = "<group>"; };
+		6A36EEBA1A1A46CA0035DF1D /* GBAKeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAKeyboardController.h; sourceTree = "<group>"; };
+		6A36EEBB1A1A46CA0035DF1D /* GBAKeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAKeyboardController.m; sourceTree = "<group>"; };
+		6A36EEBF1A1A4BA00035DF1D /* iCadeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeReaderView.h; sourceTree = "<group>"; };
+		6A36EEC01A1A4BA00035DF1D /* iCadeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCadeReaderView.m; sourceTree = "<group>"; };
+		6A36EEC11A1A4BA00035DF1D /* iCadeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeState.h; sourceTree = "<group>"; };
+		6A36EEC21A1A4BA00035DF1D /* LMBTControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBTControllerView.h; sourceTree = "<group>"; };
+		6A36EEC31A1A4BA00035DF1D /* LMBTControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBTControllerView.m; sourceTree = "<group>"; };
 		8782243FD47ECE841FACE25A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		96AAF68A93CA1A6118EB130D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A1C556FA45115F5391A4909E /* Pods.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.enterprise.xcconfig; path = "Pods/Target Support Files/Pods/Pods.enterprise.xcconfig"; sourceTree = "<group>"; };
@@ -1008,6 +1021,18 @@
 				BF104A8217EB7B8F003C86F5 /* Cells */,
 			);
 			name = "Controller Skins";
+			sourceTree = "<group>";
+		};
+		6A36EEBE1A1A4BA00035DF1D /* iCade */ = {
+			isa = PBXGroup;
+			children = (
+				6A36EEBF1A1A4BA00035DF1D /* iCadeReaderView.h */,
+				6A36EEC01A1A4BA00035DF1D /* iCadeReaderView.m */,
+				6A36EEC11A1A4BA00035DF1D /* iCadeState.h */,
+				6A36EEC21A1A4BA00035DF1D /* LMBTControllerView.h */,
+				6A36EEC31A1A4BA00035DF1D /* LMBTControllerView.m */,
+			);
+			path = iCade;
 			sourceTree = "<group>";
 		};
 		BF02AFD8182F3E3A0031B8B6 /* Syncing */ = {
@@ -1624,12 +1649,15 @@
 		CC347BAF17A3C95500309436 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6A36EEBE1A1A4BA00035DF1D /* iCade */,
 				BFAFF47C1840084500E3240A /* GBAControllerInput.h */,
 				BFAFF47D18400D7300E3240A /* GBAExternalController.h */,
 				BF216BDE186937B8000A0DB8 /* GBAExternalController_Private.h */,
 				BFAFF47E18400D7300E3240A /* GBAExternalController.m */,
 				CC8D5A7817AAE3A800E89F43 /* GBAControllerView.h */,
 				CC8D5A7917AAE3A800E89F43 /* GBAControllerView.m */,
+				6A36EEBA1A1A46CA0035DF1D /* GBAKeyboardController.h */,
+				6A36EEBB1A1A46CA0035DF1D /* GBAKeyboardController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1984,6 +2012,7 @@
 				BF2F35B4183FF6F9002ACE90 /* Frameworks */,
 				BF2F35C5183FF6F9002ACE90 /* Resources */,
 				BF2F35CF183FF6F9002ACE90 /* Copy Pods Resources */,
+				B9359CA14BFCEAE1AA692BF9 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2006,6 +2035,7 @@
 				657CB59918BF14DD00217F96 /* ShellScript */,
 				BF7C0E74189DA4CB00794093 /* ShellScript */,
 				BFB39ADD1958D796003330AE /* Embed App Extensions */,
+				14D733E69C07412B46054B3F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2023,7 +2053,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GBA;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Riley Testut";
 				TargetAttributes = {
 					BF2F34DB183FF6F9002ACE90 = {
@@ -2035,7 +2065,7 @@
 						};
 					};
 					CC2D56FB1798F2EC00C616EB = {
-						DevelopmentTeam = 6XVY5G3U44;
+						DevelopmentTeam = P445JY526A;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2129,6 +2159,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		14D733E69C07412B46054B3F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		657CB59918BF14DD00217F96 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2155,6 +2200,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9359CA14BFCEAE1AA692BF9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF2F34DC183FF6F9002ACE90 /* Check Pods Manifest.lock */ = {
@@ -2247,6 +2307,7 @@
 				BF16DCF3184FD32A0092A3F5 /* GBASyncUploadOperation.mm in Sources */,
 				BF2F351B183FF6F9002ACE90 /* RSTFileBrowserViewController.m in Sources */,
 				BF2942A6188A6E4000B96F98 /* GBAKeyboardDismissalNavigationController.m in Sources */,
+				6A36EEBD1A1A46D00035DF1D /* GBAKeyboardController.m in Sources */,
 				BF16DCF7184FD3430092A3F5 /* GBASyncDownloadOperation.mm in Sources */,
 				BFFBCCD71850505A005187DF /* GBASyncAllFilesOperation.mm in Sources */,
 				BFD03A9F1898E877001056A5 /* GBAEvent.m in Sources */,
@@ -2260,6 +2321,7 @@
 				BF2F352D183FF6F9002ACE90 /* UIScreen+Size.m in Sources */,
 				BF6ED57D1851100A0014B6A8 /* GBASyncManager.mm in Sources */,
 				BF47B36C19C6A5DD00030431 /* GBABluetoothLinkManager.mm in Sources */,
+				6A36EEC71A1A4BA00035DF1D /* LMBTControllerView.m in Sources */,
 				BF2F352E183FF6F9002ACE90 /* GBASplitViewController.mm in Sources */,
 				BF0EBB2019C05D1000703623 /* GBASettingsTableViewCell.m in Sources */,
 				BF2F352F183FF6F9002ACE90 /* GBAAsynchronousLocalImageTableViewCell.m in Sources */,
@@ -2286,6 +2348,7 @@
 				BFBAAF851977027F00754626 /* GBAEventDistributionOperation.m in Sources */,
 				BF7EC2EE196DF34300F61351 /* GBAClassicSplitViewController.m in Sources */,
 				BFFC588F186AB7CC00E7AC2F /* GBACalloutView.m in Sources */,
+				6A36EEC51A1A4BA00035DF1D /* iCadeReaderView.m in Sources */,
 				BF2F3550183FF6F9002ACE90 /* GBACheatManagerViewController.mm in Sources */,
 				BF2F3554183FF6F9002ACE90 /* GBACheatEditorViewController.m in Sources */,
 				BF58D31119B91550003B2B62 /* NSData+MD5.m in Sources */,
@@ -2384,6 +2447,7 @@
 				CCFA71B4179D2FE400768D24 /* TextEntry.cc in Sources */,
 				BF02AFDB182F3E590031B8B6 /* GBASyncingOverviewViewController.mm in Sources */,
 				CCFA7178179D2EAB00768D24 /* View.cc in Sources */,
+				6A36EEC61A1A4BA00035DF1D /* LMBTControllerView.m in Sources */,
 				CC5044EC1814DC69009F7B9E /* Cheats.cc in Sources */,
 				CCFA71AA179D2FE400768D24 /* MsgPopup.cc in Sources */,
 				CCC9B8951815AC7E005C90EE /* lyc_irq.cpp in Sources */,
@@ -2490,6 +2554,7 @@
 				CCFA71B0179D2FE400768D24 /* VideoImageOverlay.cc in Sources */,
 				BF2AC89218543BD9008928D0 /* GBASyncDeleteOperation.m in Sources */,
 				BF7EC2F2196E3A8F00F61351 /* GBAModernSplitViewController.m in Sources */,
+				6A36EEBC1A1A46CA0035DF1D /* GBAKeyboardController.m in Sources */,
 				CCFA718C179D2EAB00768D24 /* ResourceFace.cc in Sources */,
 				CC6A2D9817C50CE700EFC10E /* GBACheatEditorViewController.m in Sources */,
 				BF7C0E72189DA35800794093 /* SSZipArchive.m in Sources */,
@@ -2594,6 +2659,7 @@
 				CC5045131814DC69009F7B9E /* memgzio.c in Sources */,
 				BF537EF9184FE1AC00661C42 /* GBASyncFileOperation.mm in Sources */,
 				CCC9B8961815AC7E005C90EE /* next_m0_time.cpp in Sources */,
+				6A36EEC41A1A4BA00035DF1D /* iCadeReaderView.m in Sources */,
 				CCFA71B9179D2FE400768D24 /* InputManagerView.cc in Sources */,
 				BFFDAE1419BC2FD100BE5F74 /* GBAControllerSkinDownloadViewController.m in Sources */,
 				CC5045191814DC69009F7B9E /* 7zIn.c in Sources */,
@@ -2719,6 +2785,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "GBA4iOS copy";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -2766,6 +2833,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "GBA4iOS copy";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -2813,6 +2881,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "GBA4iOS copy";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -2841,6 +2910,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: ChinaVDI(Beijing)Technology Co.,Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ChinaVDI(Beijing)Technology Co.,Ltd.";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2940,7 +3010,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = GBA4iOS/GBA4iOS.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: ChinaVDI(Beijing)Technology Co.,Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ChinaVDI(Beijing)Technology Co.,Ltd.";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2963,11 +3033,13 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -3013,6 +3085,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "GBA4iOS copy";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3039,6 +3112,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3138,6 +3212,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = GBA4iOS/GBA4iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBA4iOS/GBA4iOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -3154,11 +3229,13 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3203,6 +3280,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "GBA4iOS copy";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3231,6 +3309,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"${SRCROOT}/**",
@@ -3343,6 +3423,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3465,11 +3546,13 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -3485,6 +3568,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = GBA4iOS/GBA4iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBA4iOS/GBA4iOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -3501,11 +3585,13 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3531,6 +3617,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Yvette Testut (6XVY5G3U44)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yvette Testut (6XVY5G3U44)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3653,11 +3740,13 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
