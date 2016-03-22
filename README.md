@@ -22,7 +22,7 @@ Credit goes out to the other folks. (pull-requests sources at the bottom)
 - Sustain Button
 - Event Distribution
 - Wario Ware: Twisted Support
-- iOS 7 Controller support
+- iOS 7 Controller support (tested also on iOS 9.3)
 - iCade Controller support (tested and mapped for '8BitDo NES30')
 - URL Scheme support (gba4ios://ROM%20Name%20Here)
 
@@ -57,6 +57,7 @@ Used commits
 - iCade Bluetooth Support - [Mike Bignell](https://bitbucket.org/mikezs/gba4ios/commits/a1bfba5c1e939b0681a927a6c704bc88c5751edc?at=master)
 - General Bugfixing – [Saagar Jha](https://bitbucket.org/saagarjha/gba4ios/commits/e30bebc8f3385498f167290ded608993db0d4714?at=master)
 - 128k save support pulled from gambatte - [r.kuraev](https://bitbucket.org/naorunaoru/gba4ios/commits/c0ac55903afdb8d681e8331fa6ca12e5caacdb14?at=master)
+- Fix rom display on iPad - [MNL](https://bitbucket.org/MNL/gba4ios/commits/516b1bc6d3ee27fe750468eaf2a94346a2193bb8?at=master)
 
 
 Contact

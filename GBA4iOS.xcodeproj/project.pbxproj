@@ -3039,7 +3039,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -3235,7 +3235,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3552,7 +3552,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -3591,7 +3591,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3746,7 +3746,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade2";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jastrow.GBA4iOS-iCade4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
